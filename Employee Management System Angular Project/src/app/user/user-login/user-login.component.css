@@ -1,0 +1,48 @@
+.login-block{
+    
+    background: hwb(41 55% 0%);  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to bottom, #FFB88C, #DE6262);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to bottom, #FFB88C, #DE6262); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+float:left;
+width:100%;
+padding : 80px 0;
+}
+.banner-sec{background:url(/assets/images/login.jpeg)  no-repeat left bottom; background-size:cover; min-height:500px; border-radius: 0 10px 10px 0; padding:0; margin-top: 20px;}
+.container{background:hsl(212, 28%, 86%); border-radius: 10px; box-shadow:15px 20px 0px rgba(140, 229, 126, 0.1);}
+.carousel-inner{border-radius:0 10px 10px 0;}
+.carousel-caption{text-align:left; left:5%;}
+.login-sec{padding: 50px 30px; position:relative;}
+.login-sec .copy-text{position:absolute; width:80%; bottom:20px; font-size:14px; text-align:center;}
+.login-sec .copy-text i{color:#b11aae;}
+.login-sec .copy-text a{color:#b11a81;}
+.login-sec h2{margin-bottom:30px; font-weight:800; font-size:30px; color: #066f60;}
+.login-sec h2:after{content:" "; width:100px; height:5px; background:#056d5e; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
+.btn-login{background: #1ab19a; color:#1c1019; font-weight:600;}
+.banner-text{width:70%; position:absolute; bottom:40px; padding-left:20px;}
+.banner-text h2{color:rgb(231, 24, 107); font-weight:600;}
+.banner-text h2:after{content:" "; width:100px; height:5px; background:rgb(116, 233, 110); display:block; margin-top:20px; border-radius:3px;}
+.banner-text p{color:rgb(229, 22, 194);}
+
+
+
+.heading{
+    font-size: 35px;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    text-align: center;
+    color: #000c0b;
+    margin-bottom: 30px;
+}
+
+.black_fnt14{
+    color: black;
+    font-size: 14px;
+}
+
+.login-block{
+    padding-top: 50px;
+}
+
+.login-sec h2:after{
+    margin-left: 5px;
+}

@@ -1,0 +1,22 @@
+<!-- admin sidebar -->
+<nav class="navbar-default navbar-side" role="navigation" style="height: 100%; margin-top: -20px;">
+    <div class="sidebar-collapse">
+        <ul class="nav" id="main-menu" style="display: block !important;">
+            <li>
+                <a class="active-menu waves-effect waves-dark" routerLink="/employees"> Employee Report</a>
+            </li>
+            <li>
+                <a routerLink="/employee/add" class="waves-effect waves-dark">Add Employee</a>
+            </li>
+            <li>
+                <a routerLink="/salary" class="waves-effect waves-dark">Salary Report</a>
+            </li>
+            <li>
+                <a routerLink="/salary/add" class="waves-effect waves-dark">Add Salary</a>
+            </li>
+            <li>
+                <a routerLink (click)="logout()" class="waves-effect waves-dark">Logout</a>
+            </li>
+        </ul>
+    </div>
+</nav>

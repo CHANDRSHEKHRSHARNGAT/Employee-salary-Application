@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/* .card .card-content{
+    padding-right: 50rem;
+} */
+
+.cntr{
+    text-align: center;
+}
+
+.page-header{
+     border-bottom: none;
+     background: none;
+}
+
+
+.navbar-default.top-navbar{
+    width: 50px;
+}
+#page-wrapper{
+    top:0px;
+}
+
+.table-striped tbody tr:nth-of-type(odd){
+}
+
+.table-striped tbody tr:nth-of-type(odd){
+    background: white !important;
+
+}
